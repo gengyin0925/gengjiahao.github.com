@@ -1,0 +1,13 @@
+先说说pages功能，blog就是在pages的基础上搭建的。如果英文不错的话，可以直接浏览此页
+
+创建一个用户的页面很简单，假设你的用户名为foo
+
+1. 新建一个仓库(repository)，名称填"foo.github.com"，创建
+2. 在本地新建一个文件夹，假如为foo,在foo里面新建一个index.html页面，随便输入点内容
+3. `git init` 初始化，`git add .` 把index.html加入到仓库中，`git commit` 提交修改
+4. 添加github的分支 `git remote add origin git@github.com:foo/foo.github.com.git`
+5. 提交到github分支 `git push origin master`
+
+过1分钟左右，浏览foo.github.com，就可以看到刚刚创建的index.html文件了。
+
+除了创建用户页面，还可以针对每个项目单独创建项目的主页，这不是本文的重点，有兴趣的可以浏览此页
